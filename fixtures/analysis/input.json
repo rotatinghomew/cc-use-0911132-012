@@ -1,0 +1,2797 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-30T00:00:00+00:00",
+  "source_versions": {
+    "operations": "r1",
+    "reference": "r1"
+  },
+  "requests": [
+    {
+      "request_id": "request-0",
+      "incident_id": "incident-0",
+      "region": "west",
+      "resource": "generator",
+      "arrived_at": "2026-08-01T00:00:00+00:00",
+      "available_at": "2026-08-01T00:00:00+00:00",
+      "requested_hours": 2
+    },
+    {
+      "request_id": "request-1",
+      "incident_id": "incident-0",
+      "region": "east",
+      "resource": "pump",
+      "arrived_at": "2026-08-02T00:00:00+00:00",
+      "available_at": "2026-08-02T00:00:00+00:00",
+      "requested_hours": 3
+    },
+    {
+      "request_id": "request-2",
+      "incident_id": "incident-0",
+      "region": "west",
+      "resource": "pump",
+      "arrived_at": "2026-08-03T00:00:00+00:00",
+      "available_at": "2026-08-03T00:00:00+00:00",
+      "requested_hours": 4
+    },
+    {
+      "request_id": "request-3",
+      "incident_id": "incident-1",
+      "region": "east",
+      "resource": "generator",
+      "arrived_at": "2026-08-04T00:00:00+00:00",
+      "available_at": "2026-08-04T00:00:00+00:00",
+      "requested_hours": 5
+    },
+    {
+      "request_id": "request-4",
+      "incident_id": "incident-1",
+      "region": "west",
+      "resource": "pump",
+      "arrived_at": "2026-08-05T00:00:00+00:00",
+      "available_at": "2026-08-05T00:00:00+00:00",
+      "requested_hours": 6
+    },
+    {
+      "request_id": "request-5",
+      "incident_id": "incident-1",
+      "region": "east",
+      "resource": "pump",
+      "arrived_at": "2026-08-06T00:00:00+00:00",
+      "available_at": "2026-08-06T00:00:00+00:00",
+      "requested_hours": 2
+    },
+    {
+      "request_id": "request-6",
+      "incident_id": "incident-2",
+      "region": "west",
+      "resource": "generator",
+      "arrived_at": "2026-08-07T00:00:00+00:00",
+      "available_at": "2026-08-07T00:00:00+00:00",
+      "requested_hours": 3
+    },
+    {
+      "request_id": "request-7",
+      "incident_id": "incident-2",
+      "region": "east",
+      "resource": "pump",
+      "arrived_at": "2026-08-08T00:00:00+00:00",
+      "available_at": "2026-08-08T00:00:00+00:00",
+      "requested_hours": 4
+    },
+    {
+      "request_id": "request-8",
+      "incident_id": "incident-2",
+      "region": "west",
+      "resource": "pump",
+      "arrived_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-09T00:00:00+00:00",
+      "requested_hours": 5
+    },
+    {
+      "request_id": "request-9",
+      "incident_id": "incident-3",
+      "region": "east",
+      "resource": "generator",
+      "arrived_at": "2026-08-10T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "requested_hours": 6
+    },
+    {
+      "request_id": "request-10",
+      "incident_id": "incident-3",
+      "region": "west",
+      "resource": "pump",
+      "arrived_at": "2026-08-11T00:00:00+00:00",
+      "available_at": "2026-08-11T00:00:00+00:00",
+      "requested_hours": 2
+    },
+    {
+      "request_id": "request-11",
+      "incident_id": "incident-3",
+      "region": "east",
+      "resource": "pump",
+      "arrived_at": "2026-08-12T00:00:00+00:00",
+      "available_at": "2026-08-12T00:00:00+00:00",
+      "requested_hours": 3
+    },
+    {
+      "request_id": "request-12",
+      "incident_id": "incident-4",
+      "region": "west",
+      "resource": "generator",
+      "arrived_at": "2026-08-13T00:00:00+00:00",
+      "available_at": "2026-08-13T00:00:00+00:00",
+      "requested_hours": 4
+    },
+    {
+      "request_id": "request-13",
+      "incident_id": "incident-4",
+      "region": "east",
+      "resource": "pump",
+      "arrived_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-14T00:00:00+00:00",
+      "requested_hours": 5
+    },
+    {
+      "request_id": "request-14",
+      "incident_id": "incident-4",
+      "region": "west",
+      "resource": "pump",
+      "arrived_at": "2026-08-15T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "requested_hours": 6
+    },
+    {
+      "request_id": "request-15",
+      "incident_id": "incident-5",
+      "region": "east",
+      "resource": "generator",
+      "arrived_at": "2026-08-16T00:00:00+00:00",
+      "available_at": "2026-08-16T00:00:00+00:00",
+      "requested_hours": 2
+    },
+    {
+      "request_id": "request-16",
+      "incident_id": "incident-5",
+      "region": "west",
+      "resource": "pump",
+      "arrived_at": "2026-08-17T00:00:00+00:00",
+      "available_at": "2026-08-17T00:00:00+00:00",
+      "requested_hours": 3
+    },
+    {
+      "request_id": "request-17",
+      "incident_id": "incident-5",
+      "region": "east",
+      "resource": "pump",
+      "arrived_at": "2026-08-18T00:00:00+00:00",
+      "available_at": "2026-08-18T00:00:00+00:00",
+      "requested_hours": 4
+    },
+    {
+      "request_id": "request-18",
+      "incident_id": "incident-6",
+      "region": "west",
+      "resource": "generator",
+      "arrived_at": "2026-08-19T00:00:00+00:00",
+      "available_at": "2026-08-19T00:00:00+00:00",
+      "requested_hours": 5
+    },
+    {
+      "request_id": "request-19",
+      "incident_id": "incident-6",
+      "region": "east",
+      "resource": "pump",
+      "arrived_at": "2026-08-20T00:00:00+00:00",
+      "available_at": "2026-08-20T00:00:00+00:00",
+      "requested_hours": 6
+    },
+    {
+      "request_id": "request-20",
+      "incident_id": "incident-6",
+      "region": "west",
+      "resource": "pump",
+      "arrived_at": "2026-08-21T00:00:00+00:00",
+      "available_at": "2026-08-21T00:00:00+00:00",
+      "requested_hours": 2
+    },
+    {
+      "request_id": "request-21",
+      "incident_id": "incident-7",
+      "region": "east",
+      "resource": "generator",
+      "arrived_at": "2026-08-22T00:00:00+00:00",
+      "available_at": "2026-08-22T00:00:00+00:00",
+      "requested_hours": 3
+    },
+    {
+      "request_id": "request-22",
+      "incident_id": "incident-7",
+      "region": "west",
+      "resource": "pump",
+      "arrived_at": "2026-08-23T00:00:00+00:00",
+      "available_at": "2026-08-23T00:00:00+00:00",
+      "requested_hours": 4
+    },
+    {
+      "request_id": "request-23",
+      "incident_id": "incident-7",
+      "region": "east",
+      "resource": "pump",
+      "arrived_at": "2026-08-24T00:00:00+00:00",
+      "available_at": "2026-08-24T00:00:00+00:00",
+      "requested_hours": 5
+    },
+    {
+      "request_id": "request-24",
+      "incident_id": "incident-8",
+      "region": "west",
+      "resource": "generator",
+      "arrived_at": "2026-08-25T00:00:00+00:00",
+      "available_at": "2026-08-25T00:00:00+00:00",
+      "requested_hours": 6
+    },
+    {
+      "request_id": "request-25",
+      "incident_id": "incident-8",
+      "region": "east",
+      "resource": "pump",
+      "arrived_at": "2026-08-26T00:00:00+00:00",
+      "available_at": "2026-08-26T00:00:00+00:00",
+      "requested_hours": 2
+    },
+    {
+      "request_id": "request-26",
+      "incident_id": "incident-8",
+      "region": "west",
+      "resource": "pump",
+      "arrived_at": "2026-08-27T00:00:00+00:00",
+      "available_at": "2026-08-27T00:00:00+00:00",
+      "requested_hours": 3
+    },
+    {
+      "request_id": "request-27",
+      "incident_id": "incident-9",
+      "region": "east",
+      "resource": "generator",
+      "arrived_at": "2026-08-28T00:00:00+00:00",
+      "available_at": "2026-08-28T00:00:00+00:00",
+      "requested_hours": 4
+    },
+    {
+      "request_id": "request-28",
+      "incident_id": "incident-9",
+      "region": "west",
+      "resource": "pump",
+      "arrived_at": "2026-08-29T00:00:00+00:00",
+      "available_at": "2026-08-29T00:00:00+00:00",
+      "requested_hours": 5
+    },
+    {
+      "request_id": "request-29",
+      "incident_id": "incident-9",
+      "region": "east",
+      "resource": "pump",
+      "arrived_at": "2026-08-30T00:00:00+00:00",
+      "available_at": "2026-08-30T00:00:00+00:00",
+      "requested_hours": 6
+    },
+    {
+      "request_id": "request-30",
+      "incident_id": "incident-10",
+      "region": "west",
+      "resource": "generator",
+      "arrived_at": "2026-08-31T00:00:00+00:00",
+      "available_at": "2026-08-31T00:00:00+00:00",
+      "requested_hours": 2
+    },
+    {
+      "request_id": "request-31",
+      "incident_id": "incident-10",
+      "region": "east",
+      "resource": "pump",
+      "arrived_at": "2026-09-01T00:00:00+00:00",
+      "available_at": "2026-09-01T00:00:00+00:00",
+      "requested_hours": 3
+    },
+    {
+      "request_id": "request-32",
+      "incident_id": "incident-10",
+      "region": "west",
+      "resource": "pump",
+      "arrived_at": "2026-09-02T00:00:00+00:00",
+      "available_at": "2026-09-02T00:00:00+00:00",
+      "requested_hours": 4
+    },
+    {
+      "request_id": "request-33",
+      "incident_id": "incident-11",
+      "region": "east",
+      "resource": "generator",
+      "arrived_at": "2026-09-03T00:00:00+00:00",
+      "available_at": "2026-09-03T00:00:00+00:00",
+      "requested_hours": 5
+    },
+    {
+      "request_id": "request-34",
+      "incident_id": "incident-11",
+      "region": "west",
+      "resource": "pump",
+      "arrived_at": "2026-09-04T00:00:00+00:00",
+      "available_at": "2026-09-04T00:00:00+00:00",
+      "requested_hours": 6
+    },
+    {
+      "request_id": "request-35",
+      "incident_id": "incident-11",
+      "region": "east",
+      "resource": "pump",
+      "arrived_at": "2026-09-05T00:00:00+00:00",
+      "available_at": "2026-09-05T00:00:00+00:00",
+      "requested_hours": 2
+    },
+    {
+      "request_id": "request-36",
+      "incident_id": "incident-12",
+      "region": "west",
+      "resource": "generator",
+      "arrived_at": "2026-09-06T00:00:00+00:00",
+      "available_at": "2026-09-06T00:00:00+00:00",
+      "requested_hours": 3
+    },
+    {
+      "request_id": "request-37",
+      "incident_id": "incident-12",
+      "region": "east",
+      "resource": "pump",
+      "arrived_at": "2026-09-07T00:00:00+00:00",
+      "available_at": "2026-09-07T00:00:00+00:00",
+      "requested_hours": 4
+    },
+    {
+      "request_id": "request-38",
+      "incident_id": "incident-12",
+      "region": "west",
+      "resource": "pump",
+      "arrived_at": "2026-09-08T00:00:00+00:00",
+      "available_at": "2026-09-08T00:00:00+00:00",
+      "requested_hours": 5
+    },
+    {
+      "request_id": "request-39",
+      "incident_id": "incident-13",
+      "region": "east",
+      "resource": "generator",
+      "arrived_at": "2026-09-09T00:00:00+00:00",
+      "available_at": "2026-09-09T00:00:00+00:00",
+      "requested_hours": 6
+    },
+    {
+      "request_id": "request-40",
+      "incident_id": "incident-13",
+      "region": "west",
+      "resource": "pump",
+      "arrived_at": "2026-09-10T00:00:00+00:00",
+      "available_at": "2026-09-10T00:00:00+00:00",
+      "requested_hours": 2
+    },
+    {
+      "request_id": "request-41",
+      "incident_id": "incident-13",
+      "region": "east",
+      "resource": "pump",
+      "arrived_at": "2026-09-11T00:00:00+00:00",
+      "available_at": "2026-09-11T00:00:00+00:00",
+      "requested_hours": 3
+    },
+    {
+      "request_id": "request-42",
+      "incident_id": "incident-14",
+      "region": "west",
+      "resource": "generator",
+      "arrived_at": "2026-09-12T00:00:00+00:00",
+      "available_at": "2026-09-12T00:00:00+00:00",
+      "requested_hours": 4
+    },
+    {
+      "request_id": "request-43",
+      "incident_id": "incident-14",
+      "region": "east",
+      "resource": "pump",
+      "arrived_at": "2026-09-13T00:00:00+00:00",
+      "available_at": "2026-09-13T00:00:00+00:00",
+      "requested_hours": 5
+    },
+    {
+      "request_id": "request-44",
+      "incident_id": "incident-14",
+      "region": "west",
+      "resource": "pump",
+      "arrived_at": "2026-09-14T00:00:00+00:00",
+      "available_at": "2026-09-14T00:00:00+00:00",
+      "requested_hours": 6
+    },
+    {
+      "request_id": "request-45",
+      "incident_id": "incident-15",
+      "region": "east",
+      "resource": "generator",
+      "arrived_at": "2026-09-15T00:00:00+00:00",
+      "available_at": "2026-09-15T00:00:00+00:00",
+      "requested_hours": 2
+    },
+    {
+      "request_id": "request-46",
+      "incident_id": "incident-15",
+      "region": "west",
+      "resource": "pump",
+      "arrived_at": "2026-09-16T00:00:00+00:00",
+      "available_at": "2026-09-16T00:00:00+00:00",
+      "requested_hours": 3
+    },
+    {
+      "request_id": "request-47",
+      "incident_id": "incident-15",
+      "region": "east",
+      "resource": "pump",
+      "arrived_at": "2026-09-17T00:00:00+00:00",
+      "available_at": "2026-09-17T00:00:00+00:00",
+      "requested_hours": 4
+    },
+    {
+      "request_id": "request-48",
+      "incident_id": "incident-16",
+      "region": "west",
+      "resource": "generator",
+      "arrived_at": "2026-09-18T00:00:00+00:00",
+      "available_at": "2026-09-18T00:00:00+00:00",
+      "requested_hours": 5
+    },
+    {
+      "request_id": "request-49",
+      "incident_id": "incident-16",
+      "region": "east",
+      "resource": "pump",
+      "arrived_at": "2026-09-19T00:00:00+00:00",
+      "available_at": "2026-09-19T00:00:00+00:00",
+      "requested_hours": 6
+    },
+    {
+      "request_id": "request-50",
+      "incident_id": "incident-16",
+      "region": "west",
+      "resource": "pump",
+      "arrived_at": "2026-09-20T00:00:00+00:00",
+      "available_at": "2026-09-20T00:00:00+00:00",
+      "requested_hours": 2
+    },
+    {
+      "request_id": "request-51",
+      "incident_id": "incident-17",
+      "region": "east",
+      "resource": "generator",
+      "arrived_at": "2026-09-21T00:00:00+00:00",
+      "available_at": "2026-09-21T00:00:00+00:00",
+      "requested_hours": 3
+    },
+    {
+      "request_id": "request-52",
+      "incident_id": "incident-17",
+      "region": "west",
+      "resource": "pump",
+      "arrived_at": "2026-09-22T00:00:00+00:00",
+      "available_at": "2026-09-22T00:00:00+00:00",
+      "requested_hours": 4
+    },
+    {
+      "request_id": "request-53",
+      "incident_id": "incident-17",
+      "region": "east",
+      "resource": "pump",
+      "arrived_at": "2026-09-23T00:00:00+00:00",
+      "available_at": "2026-09-23T00:00:00+00:00",
+      "requested_hours": 5
+    },
+    {
+      "request_id": "request-54",
+      "incident_id": "incident-18",
+      "region": "west",
+      "resource": "generator",
+      "arrived_at": "2026-09-24T00:00:00+00:00",
+      "available_at": "2026-09-24T00:00:00+00:00",
+      "requested_hours": 6
+    },
+    {
+      "request_id": "request-55",
+      "incident_id": "incident-18",
+      "region": "east",
+      "resource": "pump",
+      "arrived_at": "2026-09-25T00:00:00+00:00",
+      "available_at": "2026-09-25T00:00:00+00:00",
+      "requested_hours": 2
+    },
+    {
+      "request_id": "request-56",
+      "incident_id": "incident-18",
+      "region": "west",
+      "resource": "pump",
+      "arrived_at": "2026-09-26T00:00:00+00:00",
+      "available_at": "2026-09-26T00:00:00+00:00",
+      "requested_hours": 3
+    },
+    {
+      "request_id": "request-57",
+      "incident_id": "incident-19",
+      "region": "east",
+      "resource": "generator",
+      "arrived_at": "2026-09-27T00:00:00+00:00",
+      "available_at": "2026-09-27T00:00:00+00:00",
+      "requested_hours": 4
+    },
+    {
+      "request_id": "request-58",
+      "incident_id": "incident-19",
+      "region": "west",
+      "resource": "pump",
+      "arrived_at": "2026-09-28T00:00:00+00:00",
+      "available_at": "2026-09-28T00:00:00+00:00",
+      "requested_hours": 5
+    },
+    {
+      "request_id": "request-59",
+      "incident_id": "incident-19",
+      "region": "east",
+      "resource": "pump",
+      "arrived_at": "2026-09-29T00:00:00+00:00",
+      "available_at": "2026-09-29T00:00:00+00:00",
+      "requested_hours": 6
+    },
+    {
+      "request_id": "request-60",
+      "incident_id": "incident-20",
+      "region": "west",
+      "resource": "generator",
+      "arrived_at": "2026-09-30T00:00:00+00:00",
+      "available_at": "2026-09-30T00:00:00+00:00",
+      "requested_hours": 2
+    },
+    {
+      "request_id": "request-61",
+      "incident_id": "incident-20",
+      "region": "east",
+      "resource": "pump",
+      "arrived_at": "2026-10-01T00:00:00+00:00",
+      "available_at": "2026-10-01T00:00:00+00:00",
+      "requested_hours": 3
+    },
+    {
+      "request_id": "request-62",
+      "incident_id": "incident-20",
+      "region": "west",
+      "resource": "pump",
+      "arrived_at": "2026-10-02T00:00:00+00:00",
+      "available_at": "2026-10-02T00:00:00+00:00",
+      "requested_hours": 4
+    },
+    {
+      "request_id": "request-63",
+      "incident_id": "incident-21",
+      "region": "east",
+      "resource": "generator",
+      "arrived_at": "2026-10-03T00:00:00+00:00",
+      "available_at": "2026-10-03T00:00:00+00:00",
+      "requested_hours": 5
+    },
+    {
+      "request_id": "request-64",
+      "incident_id": "incident-21",
+      "region": "west",
+      "resource": "pump",
+      "arrived_at": "2026-10-04T00:00:00+00:00",
+      "available_at": "2026-10-04T00:00:00+00:00",
+      "requested_hours": 6
+    },
+    {
+      "request_id": "request-65",
+      "incident_id": "incident-21",
+      "region": "east",
+      "resource": "pump",
+      "arrived_at": "2026-10-05T00:00:00+00:00",
+      "available_at": "2026-10-05T00:00:00+00:00",
+      "requested_hours": 2
+    },
+    {
+      "request_id": "request-66",
+      "incident_id": "incident-22",
+      "region": "west",
+      "resource": "generator",
+      "arrived_at": "2026-10-06T00:00:00+00:00",
+      "available_at": "2026-10-06T00:00:00+00:00",
+      "requested_hours": 3
+    },
+    {
+      "request_id": "request-67",
+      "incident_id": "incident-22",
+      "region": "east",
+      "resource": "pump",
+      "arrived_at": "2026-10-07T00:00:00+00:00",
+      "available_at": "2026-10-07T00:00:00+00:00",
+      "requested_hours": 4
+    },
+    {
+      "request_id": "request-68",
+      "incident_id": "incident-22",
+      "region": "west",
+      "resource": "pump",
+      "arrived_at": "2026-10-08T00:00:00+00:00",
+      "available_at": "2026-10-08T00:00:00+00:00",
+      "requested_hours": 5
+    },
+    {
+      "request_id": "request-69",
+      "incident_id": "incident-23",
+      "region": "east",
+      "resource": "generator",
+      "arrived_at": "2026-10-09T00:00:00+00:00",
+      "available_at": "2026-10-09T00:00:00+00:00",
+      "requested_hours": 6
+    },
+    {
+      "request_id": "request-70",
+      "incident_id": "incident-23",
+      "region": "west",
+      "resource": "pump",
+      "arrived_at": "2026-10-10T00:00:00+00:00",
+      "available_at": "2026-10-10T00:00:00+00:00",
+      "requested_hours": 2
+    },
+    {
+      "request_id": "request-71",
+      "incident_id": "incident-23",
+      "region": "east",
+      "resource": "pump",
+      "arrived_at": "2026-10-11T00:00:00+00:00",
+      "available_at": "2026-10-11T00:00:00+00:00",
+      "requested_hours": 3
+    },
+    {
+      "request_id": "request-72",
+      "incident_id": "incident-24",
+      "region": "west",
+      "resource": "generator",
+      "arrived_at": "2026-10-12T00:00:00+00:00",
+      "available_at": "2026-10-12T00:00:00+00:00",
+      "requested_hours": 4
+    },
+    {
+      "request_id": "request-73",
+      "incident_id": "incident-24",
+      "region": "east",
+      "resource": "pump",
+      "arrived_at": "2026-10-13T00:00:00+00:00",
+      "available_at": "2026-10-13T00:00:00+00:00",
+      "requested_hours": 5
+    },
+    {
+      "request_id": "request-74",
+      "incident_id": "incident-24",
+      "region": "west",
+      "resource": "pump",
+      "arrived_at": "2026-10-14T00:00:00+00:00",
+      "available_at": "2026-10-14T00:00:00+00:00",
+      "requested_hours": 6
+    },
+    {
+      "request_id": "request-75",
+      "incident_id": "incident-25",
+      "region": "east",
+      "resource": "generator",
+      "arrived_at": "2026-08-01T00:00:00+00:00",
+      "available_at": "2026-08-01T00:00:00+00:00",
+      "requested_hours": 2
+    },
+    {
+      "request_id": "request-76",
+      "incident_id": "incident-25",
+      "region": "west",
+      "resource": "pump",
+      "arrived_at": "2026-08-02T00:00:00+00:00",
+      "available_at": "2026-08-02T00:00:00+00:00",
+      "requested_hours": 3
+    },
+    {
+      "request_id": "request-77",
+      "incident_id": "incident-25",
+      "region": "east",
+      "resource": "pump",
+      "arrived_at": "2026-08-03T00:00:00+00:00",
+      "available_at": "2026-08-03T00:00:00+00:00",
+      "requested_hours": 4
+    },
+    {
+      "request_id": "request-78",
+      "incident_id": "incident-26",
+      "region": "west",
+      "resource": "generator",
+      "arrived_at": "2026-08-04T00:00:00+00:00",
+      "available_at": "2026-08-04T00:00:00+00:00",
+      "requested_hours": 5
+    },
+    {
+      "request_id": "request-79",
+      "incident_id": "incident-26",
+      "region": "east",
+      "resource": "pump",
+      "arrived_at": "2026-08-05T00:00:00+00:00",
+      "available_at": "2026-08-05T00:00:00+00:00",
+      "requested_hours": 6
+    },
+    {
+      "request_id": "request-80",
+      "incident_id": "incident-26",
+      "region": "west",
+      "resource": "pump",
+      "arrived_at": "2026-08-06T00:00:00+00:00",
+      "available_at": "2026-08-06T00:00:00+00:00",
+      "requested_hours": 2
+    },
+    {
+      "request_id": "request-81",
+      "incident_id": "incident-27",
+      "region": "east",
+      "resource": "generator",
+      "arrived_at": "2026-08-07T00:00:00+00:00",
+      "available_at": "2026-08-07T00:00:00+00:00",
+      "requested_hours": 3
+    },
+    {
+      "request_id": "request-82",
+      "incident_id": "incident-27",
+      "region": "west",
+      "resource": "pump",
+      "arrived_at": "2026-08-08T00:00:00+00:00",
+      "available_at": "2026-08-08T00:00:00+00:00",
+      "requested_hours": 4
+    },
+    {
+      "request_id": "request-83",
+      "incident_id": "incident-27",
+      "region": "east",
+      "resource": "pump",
+      "arrived_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-09T00:00:00+00:00",
+      "requested_hours": 5
+    },
+    {
+      "request_id": "request-84",
+      "incident_id": "incident-28",
+      "region": "west",
+      "resource": "generator",
+      "arrived_at": "2026-08-10T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "requested_hours": 6
+    },
+    {
+      "request_id": "request-85",
+      "incident_id": "incident-28",
+      "region": "east",
+      "resource": "pump",
+      "arrived_at": "2026-08-11T00:00:00+00:00",
+      "available_at": "2026-08-11T00:00:00+00:00",
+      "requested_hours": 2
+    },
+    {
+      "request_id": "request-86",
+      "incident_id": "incident-28",
+      "region": "west",
+      "resource": "pump",
+      "arrived_at": "2026-08-12T00:00:00+00:00",
+      "available_at": "2026-08-12T00:00:00+00:00",
+      "requested_hours": 3
+    },
+    {
+      "request_id": "request-87",
+      "incident_id": "incident-29",
+      "region": "east",
+      "resource": "generator",
+      "arrived_at": "2026-08-13T00:00:00+00:00",
+      "available_at": "2026-08-13T00:00:00+00:00",
+      "requested_hours": 4
+    },
+    {
+      "request_id": "request-88",
+      "incident_id": "incident-29",
+      "region": "west",
+      "resource": "pump",
+      "arrived_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-14T00:00:00+00:00",
+      "requested_hours": 5
+    },
+    {
+      "request_id": "request-89",
+      "incident_id": "incident-29",
+      "region": "east",
+      "resource": "pump",
+      "arrived_at": "2026-08-15T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "requested_hours": 6
+    },
+    {
+      "request_id": "request-90",
+      "incident_id": "incident-30",
+      "region": "west",
+      "resource": "generator",
+      "arrived_at": "2026-08-16T00:00:00+00:00",
+      "available_at": "2026-08-16T00:00:00+00:00",
+      "requested_hours": 2
+    },
+    {
+      "request_id": "request-91",
+      "incident_id": "incident-30",
+      "region": "east",
+      "resource": "pump",
+      "arrived_at": "2026-08-17T00:00:00+00:00",
+      "available_at": "2026-08-17T00:00:00+00:00",
+      "requested_hours": 3
+    },
+    {
+      "request_id": "request-92",
+      "incident_id": "incident-30",
+      "region": "west",
+      "resource": "pump",
+      "arrived_at": "2026-08-18T00:00:00+00:00",
+      "available_at": "2026-08-18T00:00:00+00:00",
+      "requested_hours": 4
+    },
+    {
+      "request_id": "request-93",
+      "incident_id": "incident-31",
+      "region": "east",
+      "resource": "generator",
+      "arrived_at": "2026-08-19T00:00:00+00:00",
+      "available_at": "2026-08-19T00:00:00+00:00",
+      "requested_hours": 5
+    },
+    {
+      "request_id": "request-94",
+      "incident_id": "incident-31",
+      "region": "west",
+      "resource": "pump",
+      "arrived_at": "2026-08-20T00:00:00+00:00",
+      "available_at": "2026-08-20T00:00:00+00:00",
+      "requested_hours": 6
+    },
+    {
+      "request_id": "request-95",
+      "incident_id": "incident-31",
+      "region": "east",
+      "resource": "pump",
+      "arrived_at": "2026-08-21T00:00:00+00:00",
+      "available_at": "2026-08-21T00:00:00+00:00",
+      "requested_hours": 2
+    },
+    {
+      "request_id": "request-96",
+      "incident_id": "incident-32",
+      "region": "west",
+      "resource": "generator",
+      "arrived_at": "2026-08-22T00:00:00+00:00",
+      "available_at": "2026-08-22T00:00:00+00:00",
+      "requested_hours": 3
+    },
+    {
+      "request_id": "request-97",
+      "incident_id": "incident-32",
+      "region": "east",
+      "resource": "pump",
+      "arrived_at": "2026-08-23T00:00:00+00:00",
+      "available_at": "2026-08-23T00:00:00+00:00",
+      "requested_hours": 4
+    },
+    {
+      "request_id": "request-98",
+      "incident_id": "incident-32",
+      "region": "west",
+      "resource": "pump",
+      "arrived_at": "2026-08-24T00:00:00+00:00",
+      "available_at": "2026-08-24T00:00:00+00:00",
+      "requested_hours": 5
+    },
+    {
+      "request_id": "request-99",
+      "incident_id": "incident-33",
+      "region": "east",
+      "resource": "generator",
+      "arrived_at": "2026-08-25T00:00:00+00:00",
+      "available_at": "2026-08-25T00:00:00+00:00",
+      "requested_hours": 6
+    },
+    {
+      "request_id": "request-100",
+      "incident_id": "incident-33",
+      "region": "west",
+      "resource": "pump",
+      "arrived_at": "2026-08-26T00:00:00+00:00",
+      "available_at": "2026-08-26T00:00:00+00:00",
+      "requested_hours": 2
+    },
+    {
+      "request_id": "request-101",
+      "incident_id": "incident-33",
+      "region": "east",
+      "resource": "pump",
+      "arrived_at": "2026-08-27T00:00:00+00:00",
+      "available_at": "2026-08-27T00:00:00+00:00",
+      "requested_hours": 3
+    },
+    {
+      "request_id": "request-102",
+      "incident_id": "incident-34",
+      "region": "west",
+      "resource": "generator",
+      "arrived_at": "2026-08-28T00:00:00+00:00",
+      "available_at": "2026-08-28T00:00:00+00:00",
+      "requested_hours": 4
+    },
+    {
+      "request_id": "request-103",
+      "incident_id": "incident-34",
+      "region": "east",
+      "resource": "pump",
+      "arrived_at": "2026-08-29T00:00:00+00:00",
+      "available_at": "2026-08-29T00:00:00+00:00",
+      "requested_hours": 5
+    },
+    {
+      "request_id": "request-104",
+      "incident_id": "incident-34",
+      "region": "west",
+      "resource": "pump",
+      "arrived_at": "2026-08-30T00:00:00+00:00",
+      "available_at": "2026-08-30T00:00:00+00:00",
+      "requested_hours": 6
+    },
+    {
+      "request_id": "request-105",
+      "incident_id": "incident-35",
+      "region": "east",
+      "resource": "generator",
+      "arrived_at": "2026-08-31T00:00:00+00:00",
+      "available_at": "2026-08-31T00:00:00+00:00",
+      "requested_hours": 2
+    },
+    {
+      "request_id": "request-106",
+      "incident_id": "incident-35",
+      "region": "west",
+      "resource": "pump",
+      "arrived_at": "2026-09-01T00:00:00+00:00",
+      "available_at": "2026-09-01T00:00:00+00:00",
+      "requested_hours": 3
+    },
+    {
+      "request_id": "request-107",
+      "incident_id": "incident-35",
+      "region": "east",
+      "resource": "pump",
+      "arrived_at": "2026-09-02T00:00:00+00:00",
+      "available_at": "2026-09-02T00:00:00+00:00",
+      "requested_hours": 4
+    },
+    {
+      "request_id": "request-108",
+      "incident_id": "incident-36",
+      "region": "west",
+      "resource": "generator",
+      "arrived_at": "2026-09-03T00:00:00+00:00",
+      "available_at": "2026-09-03T00:00:00+00:00",
+      "requested_hours": 5
+    },
+    {
+      "request_id": "request-109",
+      "incident_id": "incident-36",
+      "region": "east",
+      "resource": "pump",
+      "arrived_at": "2026-09-04T00:00:00+00:00",
+      "available_at": "2026-09-04T00:00:00+00:00",
+      "requested_hours": 6
+    },
+    {
+      "request_id": "request-110",
+      "incident_id": "incident-36",
+      "region": "west",
+      "resource": "pump",
+      "arrived_at": "2026-09-05T00:00:00+00:00",
+      "available_at": "2026-09-05T00:00:00+00:00",
+      "requested_hours": 2
+    },
+    {
+      "request_id": "request-111",
+      "incident_id": "incident-37",
+      "region": "east",
+      "resource": "generator",
+      "arrived_at": "2026-09-06T00:00:00+00:00",
+      "available_at": "2026-09-06T00:00:00+00:00",
+      "requested_hours": 3
+    },
+    {
+      "request_id": "request-112",
+      "incident_id": "incident-37",
+      "region": "west",
+      "resource": "pump",
+      "arrived_at": "2026-09-07T00:00:00+00:00",
+      "available_at": "2026-09-07T00:00:00+00:00",
+      "requested_hours": 4
+    },
+    {
+      "request_id": "request-113",
+      "incident_id": "incident-37",
+      "region": "east",
+      "resource": "pump",
+      "arrived_at": "2026-09-08T00:00:00+00:00",
+      "available_at": "2026-09-08T00:00:00+00:00",
+      "requested_hours": 5
+    },
+    {
+      "request_id": "request-114",
+      "incident_id": "incident-38",
+      "region": "west",
+      "resource": "generator",
+      "arrived_at": "2026-09-09T00:00:00+00:00",
+      "available_at": "2026-09-09T00:00:00+00:00",
+      "requested_hours": 6
+    },
+    {
+      "request_id": "request-115",
+      "incident_id": "incident-38",
+      "region": "east",
+      "resource": "pump",
+      "arrived_at": "2026-09-10T00:00:00+00:00",
+      "available_at": "2026-09-10T00:00:00+00:00",
+      "requested_hours": 2
+    },
+    {
+      "request_id": "request-116",
+      "incident_id": "incident-38",
+      "region": "west",
+      "resource": "pump",
+      "arrived_at": "2026-09-11T00:00:00+00:00",
+      "available_at": "2026-09-11T00:00:00+00:00",
+      "requested_hours": 3
+    },
+    {
+      "request_id": "request-117",
+      "incident_id": "incident-39",
+      "region": "east",
+      "resource": "generator",
+      "arrived_at": "2026-09-12T00:00:00+00:00",
+      "available_at": "2026-09-12T00:00:00+00:00",
+      "requested_hours": 4
+    },
+    {
+      "request_id": "request-118",
+      "incident_id": "incident-39",
+      "region": "west",
+      "resource": "pump",
+      "arrived_at": "2026-09-13T00:00:00+00:00",
+      "available_at": "2026-09-13T00:00:00+00:00",
+      "requested_hours": 5
+    },
+    {
+      "request_id": "request-119",
+      "incident_id": "incident-39",
+      "region": "east",
+      "resource": "pump",
+      "arrived_at": "2026-09-14T00:00:00+00:00",
+      "available_at": "2026-09-14T00:00:00+00:00",
+      "requested_hours": 6
+    },
+    {
+      "request_id": "request-120",
+      "incident_id": "incident-40",
+      "region": "west",
+      "resource": "generator",
+      "arrived_at": "2026-09-15T00:00:00+00:00",
+      "available_at": "2026-09-15T00:00:00+00:00",
+      "requested_hours": 2
+    },
+    {
+      "request_id": "request-121",
+      "incident_id": "incident-40",
+      "region": "east",
+      "resource": "pump",
+      "arrived_at": "2026-09-16T00:00:00+00:00",
+      "available_at": "2026-09-16T00:00:00+00:00",
+      "requested_hours": 3
+    },
+    {
+      "request_id": "request-122",
+      "incident_id": "incident-40",
+      "region": "west",
+      "resource": "pump",
+      "arrived_at": "2026-09-17T00:00:00+00:00",
+      "available_at": "2026-09-17T00:00:00+00:00",
+      "requested_hours": 4
+    },
+    {
+      "request_id": "request-123",
+      "incident_id": "incident-41",
+      "region": "east",
+      "resource": "generator",
+      "arrived_at": "2026-09-18T00:00:00+00:00",
+      "available_at": "2026-09-18T00:00:00+00:00",
+      "requested_hours": 5
+    },
+    {
+      "request_id": "request-124",
+      "incident_id": "incident-41",
+      "region": "west",
+      "resource": "pump",
+      "arrived_at": "2026-09-19T00:00:00+00:00",
+      "available_at": "2026-09-19T00:00:00+00:00",
+      "requested_hours": 6
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "task-0",
+      "request_id": "request-0",
+      "requested_hours": 2,
+      "served_hours": 0,
+      "closed_at": null,
+      "available_at": "2026-08-04T00:00:00+00:00",
+      "outcome": "abandoned"
+    },
+    {
+      "task_id": "task-1",
+      "request_id": "request-1",
+      "requested_hours": 3,
+      "served_hours": 2,
+      "closed_at": "2026-08-04T00:00:00+00:00",
+      "available_at": "2026-08-05T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-2",
+      "request_id": "request-2",
+      "requested_hours": 4,
+      "served_hours": 3,
+      "closed_at": "2026-08-05T00:00:00+00:00",
+      "available_at": "2026-08-06T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-3",
+      "request_id": "request-3",
+      "requested_hours": 5,
+      "served_hours": 4,
+      "closed_at": "2026-08-06T00:00:00+00:00",
+      "available_at": "2026-08-07T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-4",
+      "request_id": "request-4",
+      "requested_hours": 6,
+      "served_hours": 0,
+      "closed_at": "2026-08-07T00:00:00+00:00",
+      "available_at": "2026-08-08T00:00:00+00:00",
+      "outcome": "abandoned"
+    },
+    {
+      "task_id": "task-5",
+      "request_id": "request-5",
+      "requested_hours": 2,
+      "served_hours": 2,
+      "closed_at": "2026-08-08T00:00:00+00:00",
+      "available_at": "2026-08-09T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-6",
+      "request_id": "request-6",
+      "requested_hours": 3,
+      "served_hours": 3,
+      "closed_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-7",
+      "request_id": "request-7",
+      "requested_hours": 4,
+      "served_hours": 4,
+      "closed_at": "2026-08-10T00:00:00+00:00",
+      "available_at": "2026-08-11T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-8",
+      "request_id": "request-8",
+      "requested_hours": 5,
+      "served_hours": 0,
+      "closed_at": "2026-08-11T00:00:00+00:00",
+      "available_at": "2026-08-12T00:00:00+00:00",
+      "outcome": "abandoned"
+    },
+    {
+      "task_id": "task-9",
+      "request_id": "request-9",
+      "requested_hours": 6,
+      "served_hours": 2,
+      "closed_at": "2026-08-12T00:00:00+00:00",
+      "available_at": "2026-08-13T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-10",
+      "request_id": "request-10",
+      "requested_hours": 2,
+      "served_hours": 3,
+      "closed_at": "2026-08-13T00:00:00+00:00",
+      "available_at": "2026-08-14T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-11",
+      "request_id": "request-11",
+      "requested_hours": 3,
+      "served_hours": 4,
+      "closed_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-12",
+      "request_id": "request-12",
+      "requested_hours": 4,
+      "served_hours": 0,
+      "closed_at": "2026-08-15T00:00:00+00:00",
+      "available_at": "2026-08-16T00:00:00+00:00",
+      "outcome": "abandoned"
+    },
+    {
+      "task_id": "task-13",
+      "request_id": "request-13",
+      "requested_hours": 5,
+      "served_hours": 2,
+      "closed_at": null,
+      "available_at": "2026-08-17T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-14",
+      "request_id": "request-14",
+      "requested_hours": 6,
+      "served_hours": 3,
+      "closed_at": "2026-08-17T00:00:00+00:00",
+      "available_at": "2026-08-18T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-15",
+      "request_id": "request-15",
+      "requested_hours": 2,
+      "served_hours": 4,
+      "closed_at": "2026-08-18T00:00:00+00:00",
+      "available_at": "2026-08-19T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-16",
+      "request_id": "request-16",
+      "requested_hours": 3,
+      "served_hours": 0,
+      "closed_at": "2026-08-19T00:00:00+00:00",
+      "available_at": "2026-08-20T00:00:00+00:00",
+      "outcome": "abandoned"
+    },
+    {
+      "task_id": "task-17",
+      "request_id": "request-17",
+      "requested_hours": 4,
+      "served_hours": 2,
+      "closed_at": "2026-08-20T00:00:00+00:00",
+      "available_at": "2026-08-21T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-18",
+      "request_id": "request-18",
+      "requested_hours": 5,
+      "served_hours": 3,
+      "closed_at": "2026-08-21T00:00:00+00:00",
+      "available_at": "2026-08-22T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-19",
+      "request_id": "request-19",
+      "requested_hours": 6,
+      "served_hours": 4,
+      "closed_at": "2026-08-22T00:00:00+00:00",
+      "available_at": "2026-08-23T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-20",
+      "request_id": "request-20",
+      "requested_hours": 2,
+      "served_hours": 0,
+      "closed_at": "2026-08-23T00:00:00+00:00",
+      "available_at": "2026-08-24T00:00:00+00:00",
+      "outcome": "abandoned"
+    },
+    {
+      "task_id": "task-21",
+      "request_id": "request-21",
+      "requested_hours": 3,
+      "served_hours": 2,
+      "closed_at": "2026-08-24T00:00:00+00:00",
+      "available_at": "2026-08-25T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-22",
+      "request_id": "request-22",
+      "requested_hours": 4,
+      "served_hours": 3,
+      "closed_at": "2026-08-25T00:00:00+00:00",
+      "available_at": "2026-08-26T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-23",
+      "request_id": "request-23",
+      "requested_hours": 5,
+      "served_hours": 4,
+      "closed_at": "2026-08-26T00:00:00+00:00",
+      "available_at": "2026-08-27T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-24",
+      "request_id": "request-24",
+      "requested_hours": 6,
+      "served_hours": 0,
+      "closed_at": "2026-08-27T00:00:00+00:00",
+      "available_at": "2026-08-28T00:00:00+00:00",
+      "outcome": "abandoned"
+    },
+    {
+      "task_id": "task-25",
+      "request_id": "request-25",
+      "requested_hours": 2,
+      "served_hours": 2,
+      "closed_at": "2026-08-28T00:00:00+00:00",
+      "available_at": "2026-08-29T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-26",
+      "request_id": "request-26",
+      "requested_hours": 3,
+      "served_hours": 3,
+      "closed_at": null,
+      "available_at": "2026-08-30T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-27",
+      "request_id": "request-27",
+      "requested_hours": 4,
+      "served_hours": 4,
+      "closed_at": "2026-08-30T00:00:00+00:00",
+      "available_at": "2026-08-31T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-28",
+      "request_id": "request-28",
+      "requested_hours": 5,
+      "served_hours": 0,
+      "closed_at": "2026-08-31T00:00:00+00:00",
+      "available_at": "2026-09-01T00:00:00+00:00",
+      "outcome": "abandoned"
+    },
+    {
+      "task_id": "task-29",
+      "request_id": "request-29",
+      "requested_hours": 6,
+      "served_hours": 2,
+      "closed_at": "2026-09-01T00:00:00+00:00",
+      "available_at": "2026-09-02T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-30",
+      "request_id": "request-30",
+      "requested_hours": 2,
+      "served_hours": 3,
+      "closed_at": "2026-09-02T00:00:00+00:00",
+      "available_at": "2026-09-03T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-31",
+      "request_id": "request-31",
+      "requested_hours": 3,
+      "served_hours": 4,
+      "closed_at": "2026-09-03T00:00:00+00:00",
+      "available_at": "2026-09-04T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-32",
+      "request_id": "request-32",
+      "requested_hours": 4,
+      "served_hours": 0,
+      "closed_at": "2026-09-04T00:00:00+00:00",
+      "available_at": "2026-09-05T00:00:00+00:00",
+      "outcome": "abandoned"
+    },
+    {
+      "task_id": "task-33",
+      "request_id": "request-33",
+      "requested_hours": 5,
+      "served_hours": 2,
+      "closed_at": "2026-09-05T00:00:00+00:00",
+      "available_at": "2026-09-06T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-34",
+      "request_id": "request-34",
+      "requested_hours": 6,
+      "served_hours": 3,
+      "closed_at": "2026-09-06T00:00:00+00:00",
+      "available_at": "2026-09-07T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-35",
+      "request_id": "request-35",
+      "requested_hours": 2,
+      "served_hours": 4,
+      "closed_at": "2026-09-07T00:00:00+00:00",
+      "available_at": "2026-09-08T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-36",
+      "request_id": "request-36",
+      "requested_hours": 3,
+      "served_hours": 0,
+      "closed_at": "2026-09-08T00:00:00+00:00",
+      "available_at": "2026-09-09T00:00:00+00:00",
+      "outcome": "abandoned"
+    },
+    {
+      "task_id": "task-37",
+      "request_id": "request-37",
+      "requested_hours": 4,
+      "served_hours": 2,
+      "closed_at": "2026-09-09T00:00:00+00:00",
+      "available_at": "2026-09-10T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-38",
+      "request_id": "request-38",
+      "requested_hours": 5,
+      "served_hours": 3,
+      "closed_at": "2026-09-10T00:00:00+00:00",
+      "available_at": "2026-09-11T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-39",
+      "request_id": "request-39",
+      "requested_hours": 6,
+      "served_hours": 4,
+      "closed_at": null,
+      "available_at": "2026-09-12T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-40",
+      "request_id": "request-40",
+      "requested_hours": 2,
+      "served_hours": 0,
+      "closed_at": "2026-09-12T00:00:00+00:00",
+      "available_at": "2026-09-13T00:00:00+00:00",
+      "outcome": "abandoned"
+    },
+    {
+      "task_id": "task-41",
+      "request_id": "request-41",
+      "requested_hours": 3,
+      "served_hours": 2,
+      "closed_at": "2026-09-13T00:00:00+00:00",
+      "available_at": "2026-09-14T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-42",
+      "request_id": "request-42",
+      "requested_hours": 4,
+      "served_hours": 3,
+      "closed_at": "2026-09-14T00:00:00+00:00",
+      "available_at": "2026-09-15T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-43",
+      "request_id": "request-43",
+      "requested_hours": 5,
+      "served_hours": 4,
+      "closed_at": "2026-09-15T00:00:00+00:00",
+      "available_at": "2026-09-16T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-44",
+      "request_id": "request-44",
+      "requested_hours": 6,
+      "served_hours": 0,
+      "closed_at": "2026-09-16T00:00:00+00:00",
+      "available_at": "2026-09-17T00:00:00+00:00",
+      "outcome": "abandoned"
+    },
+    {
+      "task_id": "task-45",
+      "request_id": "request-45",
+      "requested_hours": 2,
+      "served_hours": 2,
+      "closed_at": "2026-09-17T00:00:00+00:00",
+      "available_at": "2026-09-18T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-46",
+      "request_id": "request-46",
+      "requested_hours": 3,
+      "served_hours": 3,
+      "closed_at": "2026-09-18T00:00:00+00:00",
+      "available_at": "2026-09-19T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-47",
+      "request_id": "request-47",
+      "requested_hours": 4,
+      "served_hours": 4,
+      "closed_at": "2026-09-19T00:00:00+00:00",
+      "available_at": "2026-09-20T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-48",
+      "request_id": "request-48",
+      "requested_hours": 5,
+      "served_hours": 0,
+      "closed_at": "2026-09-20T00:00:00+00:00",
+      "available_at": "2026-09-21T00:00:00+00:00",
+      "outcome": "abandoned"
+    },
+    {
+      "task_id": "task-49",
+      "request_id": "request-49",
+      "requested_hours": 6,
+      "served_hours": 2,
+      "closed_at": "2026-09-21T00:00:00+00:00",
+      "available_at": "2026-09-22T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-50",
+      "request_id": "request-50",
+      "requested_hours": 2,
+      "served_hours": 3,
+      "closed_at": "2026-09-22T00:00:00+00:00",
+      "available_at": "2026-09-23T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-51",
+      "request_id": "request-51",
+      "requested_hours": 3,
+      "served_hours": 4,
+      "closed_at": "2026-09-23T00:00:00+00:00",
+      "available_at": "2026-09-24T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-52",
+      "request_id": "request-52",
+      "requested_hours": 4,
+      "served_hours": 0,
+      "closed_at": null,
+      "available_at": "2026-09-25T00:00:00+00:00",
+      "outcome": "abandoned"
+    },
+    {
+      "task_id": "task-53",
+      "request_id": "request-53",
+      "requested_hours": 5,
+      "served_hours": 2,
+      "closed_at": "2026-09-25T00:00:00+00:00",
+      "available_at": "2026-09-26T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-54",
+      "request_id": "request-54",
+      "requested_hours": 6,
+      "served_hours": 3,
+      "closed_at": "2026-09-26T00:00:00+00:00",
+      "available_at": "2026-09-27T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-55",
+      "request_id": "request-55",
+      "requested_hours": 2,
+      "served_hours": 4,
+      "closed_at": "2026-09-27T00:00:00+00:00",
+      "available_at": "2026-09-28T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-56",
+      "request_id": "request-56",
+      "requested_hours": 3,
+      "served_hours": 0,
+      "closed_at": "2026-09-28T00:00:00+00:00",
+      "available_at": "2026-09-29T00:00:00+00:00",
+      "outcome": "abandoned"
+    },
+    {
+      "task_id": "task-57",
+      "request_id": "request-57",
+      "requested_hours": 4,
+      "served_hours": 2,
+      "closed_at": "2026-09-29T00:00:00+00:00",
+      "available_at": "2026-09-30T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-58",
+      "request_id": "request-58",
+      "requested_hours": 5,
+      "served_hours": 3,
+      "closed_at": "2026-09-30T00:00:00+00:00",
+      "available_at": "2026-10-01T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-59",
+      "request_id": "request-59",
+      "requested_hours": 6,
+      "served_hours": 4,
+      "closed_at": "2026-10-01T00:00:00+00:00",
+      "available_at": "2026-10-02T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-60",
+      "request_id": "request-60",
+      "requested_hours": 2,
+      "served_hours": 0,
+      "closed_at": "2026-10-02T00:00:00+00:00",
+      "available_at": "2026-10-03T00:00:00+00:00",
+      "outcome": "abandoned"
+    },
+    {
+      "task_id": "task-61",
+      "request_id": "request-61",
+      "requested_hours": 3,
+      "served_hours": 2,
+      "closed_at": "2026-10-03T00:00:00+00:00",
+      "available_at": "2026-10-04T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-62",
+      "request_id": "request-62",
+      "requested_hours": 4,
+      "served_hours": 3,
+      "closed_at": "2026-10-04T00:00:00+00:00",
+      "available_at": "2026-10-05T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-63",
+      "request_id": "request-63",
+      "requested_hours": 5,
+      "served_hours": 4,
+      "closed_at": "2026-10-05T00:00:00+00:00",
+      "available_at": "2026-10-06T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-64",
+      "request_id": "request-64",
+      "requested_hours": 6,
+      "served_hours": 0,
+      "closed_at": "2026-10-06T00:00:00+00:00",
+      "available_at": "2026-10-07T00:00:00+00:00",
+      "outcome": "abandoned"
+    },
+    {
+      "task_id": "task-65",
+      "request_id": "request-65",
+      "requested_hours": 2,
+      "served_hours": 2,
+      "closed_at": null,
+      "available_at": "2026-10-08T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-66",
+      "request_id": "request-66",
+      "requested_hours": 3,
+      "served_hours": 3,
+      "closed_at": "2026-10-08T00:00:00+00:00",
+      "available_at": "2026-10-09T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-67",
+      "request_id": "request-67",
+      "requested_hours": 4,
+      "served_hours": 4,
+      "closed_at": "2026-10-09T00:00:00+00:00",
+      "available_at": "2026-10-10T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-68",
+      "request_id": "request-68",
+      "requested_hours": 5,
+      "served_hours": 0,
+      "closed_at": "2026-10-10T00:00:00+00:00",
+      "available_at": "2026-10-11T00:00:00+00:00",
+      "outcome": "abandoned"
+    },
+    {
+      "task_id": "task-69",
+      "request_id": "request-69",
+      "requested_hours": 6,
+      "served_hours": 2,
+      "closed_at": "2026-10-11T00:00:00+00:00",
+      "available_at": "2026-10-12T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-70",
+      "request_id": "request-70",
+      "requested_hours": 2,
+      "served_hours": 3,
+      "closed_at": "2026-10-12T00:00:00+00:00",
+      "available_at": "2026-10-13T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-71",
+      "request_id": "request-71",
+      "requested_hours": 3,
+      "served_hours": 4,
+      "closed_at": "2026-10-13T00:00:00+00:00",
+      "available_at": "2026-10-14T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-72",
+      "request_id": "request-72",
+      "requested_hours": 4,
+      "served_hours": 0,
+      "closed_at": "2026-10-14T00:00:00+00:00",
+      "available_at": "2026-10-15T00:00:00+00:00",
+      "outcome": "abandoned"
+    },
+    {
+      "task_id": "task-73",
+      "request_id": "request-73",
+      "requested_hours": 5,
+      "served_hours": 2,
+      "closed_at": "2026-10-15T00:00:00+00:00",
+      "available_at": "2026-10-16T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-74",
+      "request_id": "request-74",
+      "requested_hours": 6,
+      "served_hours": 3,
+      "closed_at": "2026-10-16T00:00:00+00:00",
+      "available_at": "2026-10-17T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-75",
+      "request_id": "request-75",
+      "requested_hours": 2,
+      "served_hours": 4,
+      "closed_at": "2026-08-03T00:00:00+00:00",
+      "available_at": "2026-08-04T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-76",
+      "request_id": "request-76",
+      "requested_hours": 3,
+      "served_hours": 0,
+      "closed_at": "2026-08-04T00:00:00+00:00",
+      "available_at": "2026-08-05T00:00:00+00:00",
+      "outcome": "abandoned"
+    },
+    {
+      "task_id": "task-77",
+      "request_id": "request-77",
+      "requested_hours": 4,
+      "served_hours": 2,
+      "closed_at": "2026-08-05T00:00:00+00:00",
+      "available_at": "2026-08-06T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-78",
+      "request_id": "request-78",
+      "requested_hours": 5,
+      "served_hours": 3,
+      "closed_at": null,
+      "available_at": "2026-08-07T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-79",
+      "request_id": "request-79",
+      "requested_hours": 6,
+      "served_hours": 4,
+      "closed_at": "2026-08-07T00:00:00+00:00",
+      "available_at": "2026-08-08T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-80",
+      "request_id": "request-80",
+      "requested_hours": 2,
+      "served_hours": 0,
+      "closed_at": "2026-08-08T00:00:00+00:00",
+      "available_at": "2026-08-09T00:00:00+00:00",
+      "outcome": "abandoned"
+    },
+    {
+      "task_id": "task-81",
+      "request_id": "request-81",
+      "requested_hours": 3,
+      "served_hours": 2,
+      "closed_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-82",
+      "request_id": "request-82",
+      "requested_hours": 4,
+      "served_hours": 3,
+      "closed_at": "2026-08-10T00:00:00+00:00",
+      "available_at": "2026-08-11T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-83",
+      "request_id": "request-83",
+      "requested_hours": 5,
+      "served_hours": 4,
+      "closed_at": "2026-08-11T00:00:00+00:00",
+      "available_at": "2026-08-12T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-84",
+      "request_id": "request-84",
+      "requested_hours": 6,
+      "served_hours": 0,
+      "closed_at": "2026-08-12T00:00:00+00:00",
+      "available_at": "2026-08-13T00:00:00+00:00",
+      "outcome": "abandoned"
+    },
+    {
+      "task_id": "task-85",
+      "request_id": "request-85",
+      "requested_hours": 2,
+      "served_hours": 2,
+      "closed_at": "2026-08-13T00:00:00+00:00",
+      "available_at": "2026-08-14T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-86",
+      "request_id": "request-86",
+      "requested_hours": 3,
+      "served_hours": 3,
+      "closed_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-87",
+      "request_id": "request-87",
+      "requested_hours": 4,
+      "served_hours": 4,
+      "closed_at": "2026-08-15T00:00:00+00:00",
+      "available_at": "2026-08-16T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-88",
+      "request_id": "request-88",
+      "requested_hours": 5,
+      "served_hours": 0,
+      "closed_at": "2026-08-16T00:00:00+00:00",
+      "available_at": "2026-08-17T00:00:00+00:00",
+      "outcome": "abandoned"
+    },
+    {
+      "task_id": "task-89",
+      "request_id": "request-89",
+      "requested_hours": 6,
+      "served_hours": 2,
+      "closed_at": "2026-08-17T00:00:00+00:00",
+      "available_at": "2026-08-18T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-90",
+      "request_id": "request-90",
+      "requested_hours": 2,
+      "served_hours": 3,
+      "closed_at": "2026-08-18T00:00:00+00:00",
+      "available_at": "2026-08-19T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-91",
+      "request_id": "request-91",
+      "requested_hours": 3,
+      "served_hours": 4,
+      "closed_at": null,
+      "available_at": "2026-08-20T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-92",
+      "request_id": "request-92",
+      "requested_hours": 4,
+      "served_hours": 0,
+      "closed_at": "2026-08-20T00:00:00+00:00",
+      "available_at": "2026-08-21T00:00:00+00:00",
+      "outcome": "abandoned"
+    },
+    {
+      "task_id": "task-93",
+      "request_id": "request-93",
+      "requested_hours": 5,
+      "served_hours": 2,
+      "closed_at": "2026-08-21T00:00:00+00:00",
+      "available_at": "2026-08-22T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-94",
+      "request_id": "request-94",
+      "requested_hours": 6,
+      "served_hours": 3,
+      "closed_at": "2026-08-22T00:00:00+00:00",
+      "available_at": "2026-08-23T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-95",
+      "request_id": "request-95",
+      "requested_hours": 2,
+      "served_hours": 4,
+      "closed_at": "2026-08-23T00:00:00+00:00",
+      "available_at": "2026-08-24T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-96",
+      "request_id": "request-96",
+      "requested_hours": 3,
+      "served_hours": 0,
+      "closed_at": "2026-08-24T00:00:00+00:00",
+      "available_at": "2026-08-25T00:00:00+00:00",
+      "outcome": "abandoned"
+    },
+    {
+      "task_id": "task-97",
+      "request_id": "request-97",
+      "requested_hours": 4,
+      "served_hours": 2,
+      "closed_at": "2026-08-25T00:00:00+00:00",
+      "available_at": "2026-08-26T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-98",
+      "request_id": "request-98",
+      "requested_hours": 5,
+      "served_hours": 3,
+      "closed_at": "2026-08-26T00:00:00+00:00",
+      "available_at": "2026-08-27T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-99",
+      "request_id": "request-99",
+      "requested_hours": 6,
+      "served_hours": 4,
+      "closed_at": "2026-08-27T00:00:00+00:00",
+      "available_at": "2026-08-28T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-100",
+      "request_id": "request-100",
+      "requested_hours": 2,
+      "served_hours": 0,
+      "closed_at": "2026-08-28T00:00:00+00:00",
+      "available_at": "2026-08-29T00:00:00+00:00",
+      "outcome": "abandoned"
+    },
+    {
+      "task_id": "task-101",
+      "request_id": "request-101",
+      "requested_hours": 3,
+      "served_hours": 2,
+      "closed_at": "2026-08-29T00:00:00+00:00",
+      "available_at": "2026-08-30T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-102",
+      "request_id": "request-102",
+      "requested_hours": 4,
+      "served_hours": 3,
+      "closed_at": "2026-08-30T00:00:00+00:00",
+      "available_at": "2026-08-31T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-103",
+      "request_id": "request-103",
+      "requested_hours": 5,
+      "served_hours": 4,
+      "closed_at": "2026-08-31T00:00:00+00:00",
+      "available_at": "2026-09-01T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-104",
+      "request_id": "request-104",
+      "requested_hours": 6,
+      "served_hours": 0,
+      "closed_at": null,
+      "available_at": "2026-09-02T00:00:00+00:00",
+      "outcome": "abandoned"
+    },
+    {
+      "task_id": "task-105",
+      "request_id": "request-105",
+      "requested_hours": 2,
+      "served_hours": 2,
+      "closed_at": "2026-09-02T00:00:00+00:00",
+      "available_at": "2026-09-03T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-106",
+      "request_id": "request-106",
+      "requested_hours": 3,
+      "served_hours": 3,
+      "closed_at": "2026-09-03T00:00:00+00:00",
+      "available_at": "2026-09-04T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-107",
+      "request_id": "request-107",
+      "requested_hours": 4,
+      "served_hours": 4,
+      "closed_at": "2026-09-04T00:00:00+00:00",
+      "available_at": "2026-09-05T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-108",
+      "request_id": "request-108",
+      "requested_hours": 5,
+      "served_hours": 0,
+      "closed_at": "2026-09-05T00:00:00+00:00",
+      "available_at": "2026-09-06T00:00:00+00:00",
+      "outcome": "abandoned"
+    },
+    {
+      "task_id": "task-109",
+      "request_id": "request-109",
+      "requested_hours": 6,
+      "served_hours": 2,
+      "closed_at": "2026-09-06T00:00:00+00:00",
+      "available_at": "2026-09-07T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-110",
+      "request_id": "request-110",
+      "requested_hours": 2,
+      "served_hours": 3,
+      "closed_at": "2026-09-07T00:00:00+00:00",
+      "available_at": "2026-09-08T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-111",
+      "request_id": "request-111",
+      "requested_hours": 3,
+      "served_hours": 4,
+      "closed_at": "2026-09-08T00:00:00+00:00",
+      "available_at": "2026-09-09T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-112",
+      "request_id": "request-112",
+      "requested_hours": 4,
+      "served_hours": 0,
+      "closed_at": "2026-09-09T00:00:00+00:00",
+      "available_at": "2026-09-10T00:00:00+00:00",
+      "outcome": "abandoned"
+    },
+    {
+      "task_id": "task-113",
+      "request_id": "request-113",
+      "requested_hours": 5,
+      "served_hours": 2,
+      "closed_at": "2026-09-10T00:00:00+00:00",
+      "available_at": "2026-09-11T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-114",
+      "request_id": "request-114",
+      "requested_hours": 6,
+      "served_hours": 3,
+      "closed_at": "2026-09-11T00:00:00+00:00",
+      "available_at": "2026-09-12T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-115",
+      "request_id": "request-115",
+      "requested_hours": 2,
+      "served_hours": 4,
+      "closed_at": "2026-09-12T00:00:00+00:00",
+      "available_at": "2026-09-13T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-116",
+      "request_id": "request-116",
+      "requested_hours": 3,
+      "served_hours": 0,
+      "closed_at": "2026-09-13T00:00:00+00:00",
+      "available_at": "2026-09-14T00:00:00+00:00",
+      "outcome": "abandoned"
+    },
+    {
+      "task_id": "task-117",
+      "request_id": "request-117",
+      "requested_hours": 4,
+      "served_hours": 2,
+      "closed_at": null,
+      "available_at": "2026-09-15T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-118",
+      "request_id": "request-118",
+      "requested_hours": 5,
+      "served_hours": 3,
+      "closed_at": "2026-09-15T00:00:00+00:00",
+      "available_at": "2026-09-16T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-119",
+      "request_id": "request-119",
+      "requested_hours": 6,
+      "served_hours": 4,
+      "closed_at": "2026-09-16T00:00:00+00:00",
+      "available_at": "2026-09-17T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-120",
+      "request_id": "request-120",
+      "requested_hours": 2,
+      "served_hours": 0,
+      "closed_at": "2026-09-17T00:00:00+00:00",
+      "available_at": "2026-09-18T00:00:00+00:00",
+      "outcome": "abandoned"
+    },
+    {
+      "task_id": "task-121",
+      "request_id": "request-121",
+      "requested_hours": 3,
+      "served_hours": 2,
+      "closed_at": "2026-09-18T00:00:00+00:00",
+      "available_at": "2026-09-19T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-122",
+      "request_id": "request-122",
+      "requested_hours": 4,
+      "served_hours": 3,
+      "closed_at": "2026-09-19T00:00:00+00:00",
+      "available_at": "2026-09-20T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-123",
+      "request_id": "request-123",
+      "requested_hours": 5,
+      "served_hours": 4,
+      "closed_at": "2026-09-20T00:00:00+00:00",
+      "available_at": "2026-09-21T00:00:00+00:00",
+      "outcome": "served"
+    },
+    {
+      "task_id": "task-124",
+      "request_id": "request-124",
+      "requested_hours": 6,
+      "served_hours": 0,
+      "closed_at": "2026-09-21T00:00:00+00:00",
+      "available_at": "2026-09-22T00:00:00+00:00",
+      "outcome": "abandoned"
+    },
+    {
+      "task_id": "task-reassign",
+      "request_id": "request-2",
+      "replaces": "task-2",
+      "requested_hours": 4,
+      "served_hours": 0,
+      "closed_at": "2026-08-07T00:00:00+00:00",
+      "available_at": "2026-08-07T00:00:00+00:00",
+      "outcome": "reassigned"
+    }
+  ],
+  "capacity": [
+    {
+      "region": "east",
+      "resource": "pump",
+      "start": "2026-08-01T00:00:00+00:00",
+      "end": "2026-09-10T00:00:00+00:00",
+      "hours_per_day": 24
+    },
+    {
+      "region": "east",
+      "resource": "pump",
+      "start": "2026-09-10T00:00:00+00:00",
+      "end": "2026-10-30T00:00:00+00:00",
+      "hours_per_day": 8
+    },
+    {
+      "region": "east",
+      "resource": "generator",
+      "start": "2026-08-01T00:00:00+00:00",
+      "end": "2026-09-10T00:00:00+00:00",
+      "hours_per_day": 24
+    },
+    {
+      "region": "east",
+      "resource": "generator",
+      "start": "2026-09-10T00:00:00+00:00",
+      "end": "2026-10-30T00:00:00+00:00",
+      "hours_per_day": 8
+    },
+    {
+      "region": "west",
+      "resource": "pump",
+      "start": "2026-08-01T00:00:00+00:00",
+      "end": "2026-09-10T00:00:00+00:00",
+      "hours_per_day": 24
+    },
+    {
+      "region": "west",
+      "resource": "pump",
+      "start": "2026-09-10T00:00:00+00:00",
+      "end": "2026-10-30T00:00:00+00:00",
+      "hours_per_day": 8
+    },
+    {
+      "region": "west",
+      "resource": "generator",
+      "start": "2026-08-01T00:00:00+00:00",
+      "end": "2026-09-10T00:00:00+00:00",
+      "hours_per_day": 24
+    },
+    {
+      "region": "west",
+      "resource": "generator",
+      "start": "2026-09-10T00:00:00+00:00",
+      "end": "2026-10-30T00:00:00+00:00",
+      "hours_per_day": 8
+    }
+  ],
+  "calendar": [
+    {
+      "day": "2026-08-01T00:00:00+00:00",
+      "holiday": true,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-08-02T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-08-03T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-08-04T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-08-05T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-08-06T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-08-07T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-08-08T00:00:00+00:00",
+      "holiday": true,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-08-09T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-08-10T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-08-11T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-08-12T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-08-13T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-08-14T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-08-15T00:00:00+00:00",
+      "holiday": true,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-08-16T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-08-17T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-08-18T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-08-19T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-08-20T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-08-21T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-08-22T00:00:00+00:00",
+      "holiday": true,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-08-23T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-08-24T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-08-25T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-08-26T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-08-27T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-08-28T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-08-29T00:00:00+00:00",
+      "holiday": true,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-08-30T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-08-31T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-09-01T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-09-02T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-09-03T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-09-04T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-09-05T00:00:00+00:00",
+      "holiday": true,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-09-06T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-09-07T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-09-08T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-09-09T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-09-10T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-09-11T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-09-12T00:00:00+00:00",
+      "holiday": true,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-09-13T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-09-14T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-09-15T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-09-16T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-09-17T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-09-18T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-09-19T00:00:00+00:00",
+      "holiday": true,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-09-20T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-09-21T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-09-22T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-09-23T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-09-24T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-09-25T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-09-26T00:00:00+00:00",
+      "holiday": true,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-09-27T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-09-28T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-09-29T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-09-30T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-10-01T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-10-02T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-10-03T00:00:00+00:00",
+      "holiday": true,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-10-04T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-10-05T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-10-06T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-10-07T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-10-08T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-10-09T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-10-10T00:00:00+00:00",
+      "holiday": true,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-10-11T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-10-12T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-10-13T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-10-14T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-10-15T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-10-16T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-10-17T00:00:00+00:00",
+      "holiday": true,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-10-18T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-10-19T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-10-20T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-10-21T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-10-22T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-10-23T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-10-24T00:00:00+00:00",
+      "holiday": true,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-10-25T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-10-26T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-10-27T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-10-28T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "day": "2026-10-29T00:00:00+00:00",
+      "holiday": false,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    }
+  ],
+  "planning": {
+    "horizon_days": 7,
+    "final_training_cutoff": "2026-10-10T00:00:00+00:00",
+    "regions": [
+      "east",
+      "west",
+      "new-region"
+    ],
+    "resources": [
+      "pump",
+      "generator",
+      "rare-boat"
+    ]
+  },
+  "baseline_case_id": "demo-process-20260802"
+}
